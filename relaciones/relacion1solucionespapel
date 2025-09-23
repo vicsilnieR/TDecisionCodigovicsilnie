@@ -1,0 +1,14 @@
+Ejercicio 1: Soluciones en papel
+
+En el caso de querer hacer los intervalos del criterio de Hurwicz (valores de alpha) 
+vamos a representar en un gráfico los valores del mínimo y el máximo de cada alternativa
+y si unimos esos puntos obtenemos la recta que representa todos los valores posibles de esa alternativa
+para cada valor de alpha. En los puntos donde se cruzan las rectas de dos alternativas despejamos alpha
+y podemos saber en que punto (alpha) dos alternativas o más son iguales de buenas.
+
+Para el apartado de costos/desfaborable:
+
+En el criterio de Hurwicz, multiplicamos el alpha por el Min y el (1-alpha) por el Max de cada alternativa.
+
+** Si en quarto escribimos format: typst papersize: a4 margin: {x: 1.75cm, y: 1.5cm}  también optenemos un pdf**
+** Ponemos los nombres de la tabla con rownames(tabla)
