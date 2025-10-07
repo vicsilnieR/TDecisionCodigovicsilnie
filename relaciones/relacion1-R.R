@@ -18,6 +18,7 @@ criterio.Optimista(tb01a, favorable = TRUE)
 criterio.Hurwicz(tb01a, alfa = 0.4, favorable = TRUE)
 dibuja.criterio.Hurwicz(tb01a, favorable = TRUE)
 dibuja.criterio.Hurwicz_Intervalos(tb01a, favorable = TRUE)
+dibuja.criterio.Hurwicz_Intervalos(tb01a, favorable = TRUE)
 
 ## Criterio de Savage (minimax de pérdidas)
 
